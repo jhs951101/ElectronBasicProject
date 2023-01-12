@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8'>
+    <title>Hello World App</title>
+    <link rel='stylesheet' href='css/photon.min.css'>
+    <link rel='stylesheet' href='css/styles.css'>
+  </head>
+  <body>
+    <div class='mainWrapper'>
+      <h1>User Information</h1>
+    
+      <form>
+        <div class='form-group'>
+          <label id='welcomeLbl'>[name]([username])님 환영합니다!</label>
+        </div>
+      </form>
+      <button id='signoutBtn' class='btn btn-default'> Sign Out </button>
+    </div>
+    <script>
+      require('../controller/view/userinfo.js');
+    </script>
+  </body>
+</html>

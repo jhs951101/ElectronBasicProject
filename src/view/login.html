@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8'>
+    <title>Hello World App</title>
+    <link rel='stylesheet' href='css/photon.min.css'>
+    <link rel='stylesheet' href='css/styles.css'>
+  </head>
+  <body>
+    <div class='mainWrapper'>
+      <h1>Login System</h1>
+    
+      <form>
+        <div class='form-group'>
+          <label>Username</label>
+          <input id='usernameTbox' type='text' class='form-control'>
+        </div>
+        <div class='form-group'>
+          <label>Password</label>
+          <input id='passwordTbox' type='password' class='form-control'>
+        </div>
+      </form>
+      <button id='loginBtn' class='btn btn-default'> Login </button>
+      <button id='signupBtn' class='btn btn-default'> Sign Up </button>
+    </div>
+    <script>
+      require('../controller/view/login.js');
+    </script>
+  </body>
+</html>
